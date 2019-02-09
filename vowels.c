@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 int main(void) {
-  char ch;
-  scanf("%s",&ch);
-  if(ch>='a'&&ch<='z')
+  char chara;
+  scanf("%s",&chara);
+  if(chara>='a'&&chara<='z')
   {
-    if (ch == 'a' || ch == 'A' || ch == 'e' || ch == 'E' || ch == 'i' || ch == 'I' || ch =='o' || ch=='O' || ch == 'u' || ch == 'U')
+    if (chara == 'a' || chara == 'A' || chara == 'e' || chara == 'E' || chara == 'i' || chara == 'I' || chara =='o' || chara=='O' || chara == 'u' || chara == 'U')
   {
-    printf("vowelll");
+    printf("Vowel");
   }
   else
   {
